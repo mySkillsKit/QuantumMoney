@@ -1,7 +1,6 @@
 package ru.netology.quantummoney.repository;
 
 import org.springframework.stereotype.Repository;
-import ru.netology.quantummoney.exception.ErrorTransferOrConfirm;
 import ru.netology.quantummoney.exception.InvalidInputData;
 import ru.netology.quantummoney.model.ConfirmOperation;
 import ru.netology.quantummoney.model.MoneyTransfer;
