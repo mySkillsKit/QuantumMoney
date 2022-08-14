@@ -61,8 +61,6 @@ public class MoneyTransferRepository {
                 }
             }
         }
-
-
         return new SuccessResponse(Long.toString(id));
     }
 }

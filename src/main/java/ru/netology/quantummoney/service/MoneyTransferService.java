@@ -1,6 +1,7 @@
 package ru.netology.quantummoney.service;
 
 import org.springframework.stereotype.Service;
+import ru.netology.quantummoney.exception.InvalidInputData;
 import ru.netology.quantummoney.model.ConfirmOperation;
 import ru.netology.quantummoney.model.MoneyTransfer;
 import ru.netology.quantummoney.model.SuccessResponse;
@@ -31,6 +32,13 @@ public class MoneyTransferService {
     }
 
     public SuccessResponse saveConfirmOperation(ConfirmOperation confirmOperation) {
+        if(isEmpty(confirmOperation.getOperationId()) || isEmpty(confirmOperation.getCode())) {
+            throw new InvalidInputData("Invalid input data operationId or verification code", 0);
+        }
         return repository.saveConfirmOperation(confirmOperation);
+    }
+
+    private boolean isEmpty(String str) {
+        return str == null || str.isEmpty();
     }
 }
