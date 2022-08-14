@@ -5,10 +5,11 @@ import javax.validation.constraints.NotEmpty;
 import javax.validation.constraints.Positive;
 
 public class ConfirmOperation {
-    @NotEmpty
+    @NotEmpty(message = "Invalid operationId: Empty operationId")
+    @Positive(message = "Invalid operationId: Only operationId > 0")
     private String operationId;
-    @Positive
-    @NotBlank
+    @Positive(message = "Invalid code: Only code > 0")
+    @NotBlank(message = "Invalid code: Empty code")
     private String code;
     private double transferFee;
 

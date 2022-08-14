@@ -1,17 +1,18 @@
 package ru.netology.quantummoney.model;
 
 import javax.validation.Valid;
+import javax.validation.constraints.Pattern;
 import javax.validation.constraints.Size;
 
 public class MoneyTransfer {
     private long id;
-    @Size(min = 16, max = 16)
+    @Pattern(regexp = "\\d{16}", message = "Invalid cardFromNumber: Must be 16 characters")
     private String cardFromNumber;
-    @Size(min = 4, max = 5)
+    @Pattern(regexp = "[01][0-9]/[2-9][0-9]", message = "Invalid cardFromValidTill: Must be MM/YY")
     private String cardFromValidTill;
-    @Size(min = 3, max = 3)
+    @Size(min = 3, message = "Invalid cardFromCVV: Must be min 3 characters")
     private String cardFromCVV;
-    @Size(min = 16, max = 16)
+    @Pattern(regexp = "\\d{16}", message = "Invalid cardToNumber: Must be 16 characters")
     private String cardToNumber;
     @Valid
     private Amount amount;

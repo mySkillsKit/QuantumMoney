@@ -2,6 +2,7 @@ package ru.netology.quantummoney.repository;
 
 import org.springframework.stereotype.Repository;
 import ru.netology.quantummoney.exception.ErrorTransferOrConfirm;
+import ru.netology.quantummoney.exception.InvalidInputData;
 import ru.netology.quantummoney.model.ConfirmOperation;
 import ru.netology.quantummoney.model.MoneyTransfer;
 import ru.netology.quantummoney.model.SuccessResponse;
@@ -45,7 +46,7 @@ public class MoneyTransferRepository {
     public SuccessResponse saveConfirmOperation(ConfirmOperation confirmOperation) {
         long id = Long.parseLong(confirmOperation.getOperationId());
         if (!moneyTransferMap.containsKey(id)) {
-            throw new ErrorTransferOrConfirm("Not found operationId", id);
+            throw new InvalidInputData("Not found operationId", id);
         } else {
             for (MoneyTransfer transfer : moneyTransferMap.values()) {
                 if (transfer.getId() == id) {
@@ -56,7 +57,7 @@ public class MoneyTransferRepository {
                         System.out.println("Перевод подтвержден");
                         break;
                     } else {
-                        throw new ErrorTransferOrConfirm("The transfer has already been confirmed", id);
+                        throw new InvalidInputData("The transfer has already been confirmed", id);
                     }
                 }
             }
