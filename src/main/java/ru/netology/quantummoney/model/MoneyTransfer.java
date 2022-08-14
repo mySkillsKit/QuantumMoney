@@ -1,11 +1,22 @@
 package ru.netology.quantummoney.model;
 
+import javax.validation.Valid;
+import javax.validation.constraints.NotBlank;
+import javax.validation.constraints.NotEmpty;
+import javax.validation.constraints.Positive;
+import javax.validation.constraints.Size;
+
 public class MoneyTransfer {
     private long id;
+    @Size(min = 16, max = 16)
     private String cardFromNumber;
+    @Size(min = 4, max = 5)
     private String cardFromValidTill;
+    @Size(min = 3, max = 3)
     private String cardFromCVV;
+    @Size(min = 16, max = 16)
     private String cardToNumber;
+    @Valid
     private Amount amount;
     private ConfirmOperation confirmOperation;
 

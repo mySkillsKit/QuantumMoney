@@ -44,17 +44,24 @@ public class MoneyTransferRepository {
 
     public SuccessResponse saveConfirmOperation(ConfirmOperation confirmOperation) {
         long id = Long.parseLong(confirmOperation.getOperationId());
-        for (MoneyTransfer transfer : moneyTransferMap.values()) {
-            if (transfer.getId() == id) {
-                confirmOperation.setTransferFee(transfer.getAmount().getValue() * 0.01);
-                transfer.setConfirmOperation(confirmOperation);
-                moneyTransferMap.put(id, transfer);
-                System.out.println(transfer);
-                System.out.println(moneyTransferMap);
-            } else {
-                throw new ErrorTransferOrConfirm("Not found operationId", id);
+        if (!moneyTransferMap.containsKey(id)) {
+            throw new ErrorTransferOrConfirm("Not found operationId", id);
+        } else {
+            for (MoneyTransfer transfer : moneyTransferMap.values()) {
+                if (transfer.getId() == id) {
+                    if (transfer.getConfirmOperation() == null) {
+                        confirmOperation.setTransferFee(transfer.getAmount().getValue() * 0.01);
+                        transfer.setConfirmOperation(confirmOperation);
+                        moneyTransferMap.put(id, transfer);
+                        System.out.println("Перевод подтвержден");
+                        break;
+                    } else {
+                        throw new ErrorTransferOrConfirm("The transfer has already been confirmed", id);
+                    }
+                }
             }
         }
+
 
         return new SuccessResponse(Long.toString(id));
     }

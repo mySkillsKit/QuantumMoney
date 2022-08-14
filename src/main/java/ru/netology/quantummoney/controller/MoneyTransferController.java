@@ -8,6 +8,8 @@ import ru.netology.quantummoney.model.MoneyTransfer;
 import ru.netology.quantummoney.model.SuccessResponse;
 import ru.netology.quantummoney.service.MoneyTransferService;
 
+import javax.validation.Valid;
+
 @RestController
 public class MoneyTransferController {
     private final MoneyTransferService service;
@@ -17,12 +19,12 @@ public class MoneyTransferController {
     }
 
     @PostMapping("/transfer")
-    public SuccessResponse saveMoneyTransfer(@RequestBody MoneyTransfer transfer) {
+    public SuccessResponse saveMoneyTransfer(@Valid @RequestBody MoneyTransfer transfer) {
         return service.saveMoneyTransfer(transfer);
     }
 
     @PostMapping("/confirmOperation")
-    public SuccessResponse saveConfirmOperation(@RequestBody ConfirmOperation confirmOperation) {
+    public SuccessResponse saveConfirmOperation(@Valid @RequestBody ConfirmOperation confirmOperation) {
         return service.saveConfirmOperation(confirmOperation);
     }
 

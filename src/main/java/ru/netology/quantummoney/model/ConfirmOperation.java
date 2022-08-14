@@ -1,7 +1,14 @@
 package ru.netology.quantummoney.model;
 
+import javax.validation.constraints.NotBlank;
+import javax.validation.constraints.NotEmpty;
+import javax.validation.constraints.Positive;
+
 public class ConfirmOperation {
+    @NotEmpty
     private String operationId;
+    @Positive
+    @NotBlank
     private String code;
     private double transferFee;
 

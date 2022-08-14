@@ -1,7 +1,15 @@
 package ru.netology.quantummoney.model;
 
+import javax.validation.constraints.NotEmpty;
+import javax.validation.constraints.NotNull;
+import javax.validation.constraints.Positive;
+import javax.validation.constraints.Size;
+
 public class Amount {
+    @Positive
     private final int value;
+    @NotEmpty
+    @Size(min = 3, max = 3)
     private final String currency;
 
 
