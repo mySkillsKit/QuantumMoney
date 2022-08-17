@@ -1,8 +1,6 @@
 package ru.netology.quantummoney.controller;
 
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 import ru.netology.quantummoney.model.ConfirmOperation;
 import ru.netology.quantummoney.model.MoneyTransfer;
 import ru.netology.quantummoney.model.SuccessResponse;
@@ -11,6 +9,8 @@ import ru.netology.quantummoney.service.MoneyTransferService;
 import javax.validation.Valid;
 
 @RestController
+@RequestMapping("/")
+@CrossOrigin(origins = "https://serp-ya.github.io", methods = RequestMethod.POST)
 public class MoneyTransferController {
     private final MoneyTransferService service;
 
