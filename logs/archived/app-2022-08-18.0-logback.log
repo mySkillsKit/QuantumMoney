@@ -1,0 +1,434 @@
+2022-08-18 18:20:56,916 INFO [background-preinit] org.hibernate.validator.internal.util.Version: HV000001: Hibernate Validator 6.2.3.Final
+2022-08-18 18:20:56,915 INFO [main] org.springframework.boot.StartupInfoLogger: Starting QuantumMoneyApplication using Java 11.0.14.1 on AvasMacBook with PID 3978 (/Users/avas/IdeaProjects/QuantumMoney/build/classes/java/main started by avas in /Users/avas/IdeaProjects/QuantumMoney)
+2022-08-18 18:20:56,924 DEBUG [main] org.springframework.boot.StartupInfoLogger: Running with Spring Boot v2.7.2, Spring v5.3.22
+2022-08-18 18:20:56,926 INFO [main] org.springframework.boot.SpringApplication: No active profile set, falling back to 1 default profile: "default"
+2022-08-18 18:20:58,451 INFO [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer: Tomcat initialized with port(s): 5500 (http)
+2022-08-18 18:20:58,458 INFO [main] org.apache.juli.logging.DirectJDKLog: Initializing ProtocolHandler ["http-nio-5500"]
+2022-08-18 18:20:58,459 INFO [main] org.apache.juli.logging.DirectJDKLog: Starting service [Tomcat]
+2022-08-18 18:20:58,460 INFO [main] org.apache.juli.logging.DirectJDKLog: Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-08-18 18:20:58,551 INFO [main] org.apache.juli.logging.DirectJDKLog: Initializing Spring embedded WebApplicationContext
+2022-08-18 18:20:58,552 INFO [main] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext: Root WebApplicationContext: initialization completed in 1578 ms
+2022-08-18 18:20:59,120 INFO [main] org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver: Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-08-18 18:20:59,153 INFO [main] org.apache.juli.logging.DirectJDKLog: Starting ProtocolHandler ["http-nio-5500"]
+2022-08-18 18:20:59,166 INFO [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer: Tomcat started on port(s): 5500 (http) with context path ''
+2022-08-18 18:20:59,192 INFO [main] org.springframework.boot.StartupInfoLogger: Started QuantumMoneyApplication in 2.711 seconds (JVM running for 3.854)
+2022-08-18 18:20:59,444 INFO [RMI TCP Connection(2)-192.168.1.77] org.apache.juli.logging.DirectJDKLog: Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-08-18 18:20:59,445 INFO [RMI TCP Connection(2)-192.168.1.77] org.springframework.web.servlet.FrameworkServlet: Initializing Servlet 'dispatcherServlet'
+2022-08-18 18:20:59,445 INFO [RMI TCP Connection(2)-192.168.1.77] org.springframework.web.servlet.FrameworkServlet: Completed initialization in 0 ms
+2022-08-18 18:22:24,293 INFO [http-nio-5500-exec-2] ru.netology.quantummoney.controller.MoneyTransferController: Create new money transfer MoneyTransfer{id=0, cardFromNumber='1115666600001012', cardFromValidTill='08/22', cardFromCVV='123', cardToNumber='5555666600001111', amount=Amount{value=9, currency='RUB'}, confirmOperation=null}
+2022-08-18 18:22:26,712 INFO [http-nio-5500-exec-3] ru.netology.quantummoney.repository.MoneyTransferRepository: Перевод подтвержден MoneyTransfer{id=1, cardFromNumber='1115666600001012', cardFromValidTill='08/22', cardFromCVV='123', cardToNumber='5555666600001111', amount=Amount{value=9, currency='RUB'}, confirmOperation=ConfirmOperation{operationId='1', code='0000', transferFee=0.09}}
+2022-08-18 18:54:33,650 INFO [background-preinit] org.hibernate.validator.internal.util.Version: HV000001: Hibernate Validator 6.2.3.Final
+2022-08-18 18:54:33,650 INFO [main] org.springframework.boot.StartupInfoLogger: Starting QuantumMoneyApplication using Java 11.0.14.1 on AvasMacBook with PID 4299 (/Users/avas/IdeaProjects/QuantumMoney/build/classes/java/main started by avas in /Users/avas/IdeaProjects/QuantumMoney)
+2022-08-18 18:54:33,669 DEBUG [main] org.springframework.boot.StartupInfoLogger: Running with Spring Boot v2.7.2, Spring v5.3.22
+2022-08-18 18:54:33,672 INFO [main] org.springframework.boot.SpringApplication: No active profile set, falling back to 1 default profile: "default"
+2022-08-18 18:54:34,936 INFO [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer: Tomcat initialized with port(s): 5500 (http)
+2022-08-18 18:54:34,945 INFO [main] org.apache.juli.logging.DirectJDKLog: Initializing ProtocolHandler ["http-nio-5500"]
+2022-08-18 18:54:34,946 INFO [main] org.apache.juli.logging.DirectJDKLog: Starting service [Tomcat]
+2022-08-18 18:54:34,947 INFO [main] org.apache.juli.logging.DirectJDKLog: Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-08-18 18:54:35,046 INFO [main] org.apache.juli.logging.DirectJDKLog: Initializing Spring embedded WebApplicationContext
+2022-08-18 18:54:35,048 INFO [main] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext: Root WebApplicationContext: initialization completed in 1319 ms
+2022-08-18 18:54:35,579 INFO [main] org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver: Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-08-18 18:54:35,626 INFO [main] org.apache.juli.logging.DirectJDKLog: Starting ProtocolHandler ["http-nio-5500"]
+2022-08-18 18:54:35,641 INFO [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer: Tomcat started on port(s): 5500 (http) with context path ''
+2022-08-18 18:54:35,664 INFO [main] org.springframework.boot.StartupInfoLogger: Started QuantumMoneyApplication in 2.486 seconds (JVM running for 3.54)
+2022-08-18 18:54:36,281 INFO [RMI TCP Connection(2)-192.168.1.77] org.apache.juli.logging.DirectJDKLog: Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-08-18 18:54:36,283 INFO [RMI TCP Connection(2)-192.168.1.77] org.springframework.web.servlet.FrameworkServlet: Initializing Servlet 'dispatcherServlet'
+2022-08-18 18:54:36,285 INFO [RMI TCP Connection(2)-192.168.1.77] org.springframework.web.servlet.FrameworkServlet: Completed initialization in 1 ms
+2022-08-18 18:54:44,815 INFO [http-nio-5500-exec-2] ru.netology.quantummoney.advice.ExceptionHandlerAdvice: message: Invalid value: Must be value > 0, id: = 0
+2022-08-18 18:55:31,097 INFO [http-nio-5500-exec-4] ru.netology.quantummoney.advice.ExceptionHandlerAdvice: message: Invalid cardFromNumber: Must be 16 characters | Invalid value: Must be value > 0, id: = 0
+2022-08-18 18:55:37,866 INFO [http-nio-5500-exec-6] ru.netology.quantummoney.advice.ExceptionHandlerAdvice: message: Invalid cardFromNumber: Must be 16 characters, id: = 0
+2022-08-18 18:55:42,424 INFO [http-nio-5500-exec-8] ru.netology.quantummoney.advice.ExceptionHandlerAdvice: message: Invalid cardFromNumber: Must be 16 characters, id: = 0
+2022-08-18 18:55:49,114 INFO [http-nio-5500-exec-10] ru.netology.quantummoney.advice.ExceptionHandlerAdvice: message: Invalid cardFromNumber: Must be 16 characters, id: = 0
+2022-08-18 18:55:57,197 INFO [http-nio-5500-exec-2] ru.netology.quantummoney.advice.ExceptionHandlerAdvice: message: Invalid cardFromNumber: Must be 16 characters, id: = 0
+2022-08-18 18:56:00,989 INFO [http-nio-5500-exec-4] ru.netology.quantummoney.controller.MoneyTransferController: Creating new money transfer MoneyTransfer{id=0, cardFromNumber='1115666600101892', cardFromValidTill='05/21', cardFromCVV='123', cardToNumber='5555666600001111', amount=Amount{value=67899, currency='RUB'}, confirmOperation=null}
+2022-08-18 18:56:01,046 INFO [http-nio-5500-exec-4] ru.netology.quantummoney.advice.ExceptionHandlerAdvice: message: Invalid input data: card expired 05/21, id: = 0
+2022-08-18 18:56:13,947 INFO [http-nio-5500-exec-6] ru.netology.quantummoney.controller.MoneyTransferController: Creating new money transfer MoneyTransfer{id=0, cardFromNumber='1115666600101892', cardFromValidTill='05/22', cardFromCVV='123', cardToNumber='5555666600001111', amount=Amount{value=67899, currency='RUB'}, confirmOperation=null}
+2022-08-18 18:56:13,949 INFO [http-nio-5500-exec-6] ru.netology.quantummoney.advice.ExceptionHandlerAdvice: message: Invalid input data: card expired 05/22, id: = 0
+2022-08-18 18:56:18,194 INFO [http-nio-5500-exec-7] ru.netology.quantummoney.controller.MoneyTransferController: Creating new money transfer MoneyTransfer{id=0, cardFromNumber='1115666600101892', cardFromValidTill='05/23', cardFromCVV='123', cardToNumber='5555666600001111', amount=Amount{value=67899, currency='RUB'}, confirmOperation=null}
+2022-08-18 18:56:18,202 INFO [http-nio-5500-exec-7] ru.netology.quantummoney.service.MoneyTransferService: The input data Money Transfer is correct!
+2022-08-18 18:56:18,203 INFO [http-nio-5500-exec-7] ru.netology.quantummoney.repository.MoneyTransferRepository: Money Transfer added to Map<Long, MoneyTransfer> operationId = 1
+2022-08-18 18:56:23,909 INFO [http-nio-5500-exec-9] ru.netology.quantummoney.advice.ExceptionHandlerAdvice: message: Invalid cardFromCVV: Must be min 3 characters, id: = 0
+2022-08-18 18:56:28,883 INFO [http-nio-5500-exec-1] ru.netology.quantummoney.controller.MoneyTransferController: Creating new money transfer MoneyTransfer{id=0, cardFromNumber='1115666600101892', cardFromValidTill='05/23', cardFromCVV='123', cardToNumber='5555666600001111', amount=Amount{value=67899, currency='RUB'}, confirmOperation=null}
+2022-08-18 18:56:28,895 INFO [http-nio-5500-exec-1] ru.netology.quantummoney.service.MoneyTransferService: The input data Money Transfer is correct!
+2022-08-18 18:56:28,896 INFO [http-nio-5500-exec-1] ru.netology.quantummoney.repository.MoneyTransferRepository: Money Transfer added to Map<Long, MoneyTransfer> operationId = 2
+2022-08-18 18:56:31,777 INFO [http-nio-5500-exec-2] ru.netology.quantummoney.advice.ExceptionHandlerAdvice: message: Invalid cardToNumber: Must be 16 characters, id: = 0
+2022-08-18 18:56:35,172 INFO [http-nio-5500-exec-3] ru.netology.quantummoney.controller.MoneyTransferController: Creating new money transfer MoneyTransfer{id=0, cardFromNumber='1115666600101892', cardFromValidTill='05/23', cardFromCVV='123', cardToNumber='5555636200001111', amount=Amount{value=67899, currency='RUB'}, confirmOperation=null}
+2022-08-18 18:56:35,173 INFO [http-nio-5500-exec-3] ru.netology.quantummoney.service.MoneyTransferService: The input data Money Transfer is correct!
+2022-08-18 18:56:35,174 INFO [http-nio-5500-exec-3] ru.netology.quantummoney.repository.MoneyTransferRepository: Money Transfer added to Map<Long, MoneyTransfer> operationId = 3
+2022-08-18 18:56:41,906 INFO [http-nio-5500-exec-5] ru.netology.quantummoney.advice.ExceptionHandlerAdvice: message: Invalid currency: Must be 3 characters (RUB/USD/EUR), id: = 0
+2022-08-18 18:56:46,878 INFO [http-nio-5500-exec-8] ru.netology.quantummoney.controller.MoneyTransferController: Creating new money transfer MoneyTransfer{id=0, cardFromNumber='1115666600101892', cardFromValidTill='05/23', cardFromCVV='123', cardToNumber='5555636200001111', amount=Amount{value=67899, currency='RUB'}, confirmOperation=null}
+2022-08-18 18:56:46,880 INFO [http-nio-5500-exec-8] ru.netology.quantummoney.service.MoneyTransferService: The input data Money Transfer is correct!
+2022-08-18 18:56:46,881 INFO [http-nio-5500-exec-8] ru.netology.quantummoney.repository.MoneyTransferRepository: Money Transfer added to Map<Long, MoneyTransfer> operationId = 4
+2022-08-18 18:56:53,157 INFO [http-nio-5500-exec-7] ru.netology.quantummoney.controller.MoneyTransferController: Confirming operation money transfer ConfirmOperation{operationId='1', code='0000', transferFee=0.0}
+2022-08-18 18:56:53,170 INFO [http-nio-5500-exec-7] ru.netology.quantummoney.repository.MoneyTransferRepository: Money Transfer confirmed MoneyTransfer{id=1, cardFromNumber='1115666600101892', cardFromValidTill='05/23', cardFromCVV='123', cardToNumber='5555666600001111', amount=Amount{value=67899, currency='RUB'}, confirmOperation=ConfirmOperation{operationId='1', code='0000', transferFee=678.99}}
+2022-08-18 18:56:55,303 INFO [http-nio-5500-exec-9] ru.netology.quantummoney.controller.MoneyTransferController: Confirming operation money transfer ConfirmOperation{operationId='1', code='0000', transferFee=0.0}
+2022-08-18 18:56:55,306 INFO [http-nio-5500-exec-9] ru.netology.quantummoney.advice.ExceptionHandlerAdvice: message: The transfer has already been confirmed, id: = 1
+2022-08-18 18:57:06,005 INFO [http-nio-5500-exec-1] ru.netology.quantummoney.advice.ExceptionHandlerAdvice: message: Invalid code: Must be min 4 characters, id: = 0
+2022-08-18 18:57:16,924 INFO [http-nio-5500-exec-4] ru.netology.quantummoney.advice.ExceptionHandlerAdvice: message: Invalid code: Must be min 4 characters, id: = 0
+2022-08-18 18:57:21,078 INFO [http-nio-5500-exec-5] ru.netology.quantummoney.controller.MoneyTransferController: Confirming operation money transfer ConfirmOperation{operationId='10', code='2304', transferFee=0.0}
+2022-08-18 18:57:21,080 INFO [http-nio-5500-exec-5] ru.netology.quantummoney.advice.ExceptionHandlerAdvice: message: Not found operationId, id: = 10
+2022-08-18 18:57:23,074 INFO [http-nio-5500-exec-8] ru.netology.quantummoney.controller.MoneyTransferController: Confirming operation money transfer ConfirmOperation{operationId='10', code='2304', transferFee=0.0}
+2022-08-18 18:57:23,079 INFO [http-nio-5500-exec-8] ru.netology.quantummoney.advice.ExceptionHandlerAdvice: message: Not found operationId, id: = 10
+2022-08-18 18:59:42,420 INFO [http-nio-5500-exec-9] ru.netology.quantummoney.controller.MoneyTransferController: Confirming operation money transfer ConfirmOperation{operationId='10', code='2304', transferFee=0.0}
+2022-08-18 18:59:42,431 INFO [http-nio-5500-exec-9] ru.netology.quantummoney.advice.ExceptionHandlerAdvice: message: Not found operationId, id: = 10
+2022-08-18 18:59:43,198 INFO [http-nio-5500-exec-1] ru.netology.quantummoney.controller.MoneyTransferController: Confirming operation money transfer ConfirmOperation{operationId='10', code='2304', transferFee=0.0}
+2022-08-18 18:59:43,201 INFO [http-nio-5500-exec-1] ru.netology.quantummoney.advice.ExceptionHandlerAdvice: message: Not found operationId, id: = 10
+2022-08-18 19:00:48,163 INFO [http-nio-5500-exec-4] ru.netology.quantummoney.controller.MoneyTransferController: Creating new money transfer MoneyTransfer{id=0, cardFromNumber='2134242523521451', cardFromValidTill='01/23', cardFromCVV='123', cardToNumber='2151246346346346', amount=Amount{value=235500, currency='RUR'}, confirmOperation=null}
+2022-08-18 19:00:48,165 INFO [http-nio-5500-exec-4] ru.netology.quantummoney.service.MoneyTransferService: The input data Money Transfer is correct!
+2022-08-18 19:00:48,166 INFO [http-nio-5500-exec-4] ru.netology.quantummoney.repository.MoneyTransferRepository: Money Transfer added to Map<Long, MoneyTransfer> operationId = 5
+2022-08-18 19:00:48,181 INFO [http-nio-5500-exec-5] ru.netology.quantummoney.controller.MoneyTransferController: Confirming operation money transfer ConfirmOperation{operationId='5', code='0000', transferFee=0.0}
+2022-08-18 19:00:48,182 INFO [http-nio-5500-exec-5] ru.netology.quantummoney.repository.MoneyTransferRepository: Money Transfer confirmed MoneyTransfer{id=5, cardFromNumber='2134242523521451', cardFromValidTill='01/23', cardFromCVV='123', cardToNumber='2151246346346346', amount=Amount{value=235500, currency='RUR'}, confirmOperation=ConfirmOperation{operationId='5', code='0000', transferFee=2355.0}}
+2022-08-18 19:15:34,996 INFO [main] org.springframework.boot.StartupInfoLogger: Starting QuantumMoneyApplication using Java 11.0.14.1 on AvasMacBook with PID 4734 (/Users/avas/IdeaProjects/QuantumMoney/build/classes/java/main started by avas in /Users/avas/IdeaProjects/QuantumMoney)
+2022-08-18 19:15:34,996 INFO [background-preinit] org.hibernate.validator.internal.util.Version: HV000001: Hibernate Validator 6.2.3.Final
+2022-08-18 19:15:35,001 DEBUG [main] org.springframework.boot.StartupInfoLogger: Running with Spring Boot v2.7.2, Spring v5.3.22
+2022-08-18 19:15:35,002 INFO [main] org.springframework.boot.SpringApplication: No active profile set, falling back to 1 default profile: "default"
+2022-08-18 19:15:36,327 INFO [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer: Tomcat initialized with port(s): 5500 (http)
+2022-08-18 19:15:36,334 INFO [main] org.apache.juli.logging.DirectJDKLog: Initializing ProtocolHandler ["http-nio-5500"]
+2022-08-18 19:15:36,335 INFO [main] org.apache.juli.logging.DirectJDKLog: Starting service [Tomcat]
+2022-08-18 19:15:36,335 INFO [main] org.apache.juli.logging.DirectJDKLog: Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-08-18 19:15:36,427 INFO [main] org.apache.juli.logging.DirectJDKLog: Initializing Spring embedded WebApplicationContext
+2022-08-18 19:15:36,428 INFO [main] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext: Root WebApplicationContext: initialization completed in 1375 ms
+2022-08-18 19:15:36,972 INFO [main] org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver: Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-08-18 19:15:37,008 INFO [main] org.apache.juli.logging.DirectJDKLog: Starting ProtocolHandler ["http-nio-5500"]
+2022-08-18 19:15:37,021 INFO [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer: Tomcat started on port(s): 5500 (http) with context path ''
+2022-08-18 19:15:37,045 INFO [main] org.springframework.boot.StartupInfoLogger: Started QuantumMoneyApplication in 2.494 seconds (JVM running for 3.529)
+2022-08-18 19:15:37,524 INFO [RMI TCP Connection(3)-192.168.1.77] org.apache.juli.logging.DirectJDKLog: Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-08-18 19:15:37,525 INFO [RMI TCP Connection(3)-192.168.1.77] org.springframework.web.servlet.FrameworkServlet: Initializing Servlet 'dispatcherServlet'
+2022-08-18 19:15:37,528 INFO [RMI TCP Connection(3)-192.168.1.77] org.springframework.web.servlet.FrameworkServlet: Completed initialization in 3 ms
+2022-08-18 19:16:46,502 INFO [http-nio-5500-exec-2] ru.netology.quantummoney.controller.MoneyTransferController: Confirming operation money transfer ConfirmOperation{operationId='10', code='2304', transferFee=0.0}
+2022-08-18 19:16:46,517 INFO [http-nio-5500-exec-2] ru.netology.quantummoney.advice.ExceptionHandlerAdvice: message: Not found operationId, id: = 10
+2022-08-18 19:16:48,975 INFO [http-nio-5500-exec-4] ru.netology.quantummoney.controller.MoneyTransferController: Creating new money transfer MoneyTransfer{id=0, cardFromNumber='1115666600101892', cardFromValidTill='05/23', cardFromCVV='123', cardToNumber='5555636200001111', amount=Amount{value=67899, currency='RUB'}, confirmOperation=null}
+2022-08-18 19:16:49,010 INFO [http-nio-5500-exec-4] ru.netology.quantummoney.service.MoneyTransferService: The input data Money Transfer is correct!
+2022-08-18 19:16:49,010 INFO [http-nio-5500-exec-4] ru.netology.quantummoney.repository.MoneyTransferRepository: Money Transfer added to Map<Long, MoneyTransfer> operationId = 1
+2022-08-18 19:16:49,808 INFO [http-nio-5500-exec-5] ru.netology.quantummoney.controller.MoneyTransferController: Creating new money transfer MoneyTransfer{id=0, cardFromNumber='1115666600101892', cardFromValidTill='05/23', cardFromCVV='123', cardToNumber='5555636200001111', amount=Amount{value=67899, currency='RUB'}, confirmOperation=null}
+2022-08-18 19:16:49,809 INFO [http-nio-5500-exec-5] ru.netology.quantummoney.service.MoneyTransferService: The input data Money Transfer is correct!
+2022-08-18 19:16:49,810 INFO [http-nio-5500-exec-5] ru.netology.quantummoney.repository.MoneyTransferRepository: Money Transfer added to Map<Long, MoneyTransfer> operationId = 2
+2022-08-18 19:16:50,335 INFO [http-nio-5500-exec-6] ru.netology.quantummoney.controller.MoneyTransferController: Creating new money transfer MoneyTransfer{id=0, cardFromNumber='1115666600101892', cardFromValidTill='05/23', cardFromCVV='123', cardToNumber='5555636200001111', amount=Amount{value=67899, currency='RUB'}, confirmOperation=null}
+2022-08-18 19:16:50,336 INFO [http-nio-5500-exec-6] ru.netology.quantummoney.service.MoneyTransferService: The input data Money Transfer is correct!
+2022-08-18 19:16:50,336 INFO [http-nio-5500-exec-6] ru.netology.quantummoney.repository.MoneyTransferRepository: Money Transfer added to Map<Long, MoneyTransfer> operationId = 3
+2022-08-18 19:16:53,198 INFO [http-nio-5500-exec-7] ru.netology.quantummoney.controller.MoneyTransferController: Confirming operation money transfer ConfirmOperation{operationId='10', code='2304', transferFee=0.0}
+2022-08-18 19:16:53,202 INFO [http-nio-5500-exec-7] ru.netology.quantummoney.advice.ExceptionHandlerAdvice: message: Not found operationId, id: = 10
+2022-08-18 19:16:57,461 INFO [http-nio-5500-exec-9] ru.netology.quantummoney.controller.MoneyTransferController: Confirming operation money transfer ConfirmOperation{operationId='1', code='2304', transferFee=0.0}
+2022-08-18 19:16:57,463 INFO [http-nio-5500-exec-9] ru.netology.quantummoney.repository.MoneyTransferRepository: Money Transfer confirmed MoneyTransfer{id=1, cardFromNumber='1115666600101892', cardFromValidTill='05/23', cardFromCVV='123', cardToNumber='5555636200001111', amount=Amount{value=67899, currency='RUB'}, confirmOperation=ConfirmOperation{operationId='1', code='2304', transferFee=678.99}}
+2022-08-18 19:30:27,727 INFO [Test worker] org.springframework.test.context.support.AbstractTestContextBootstrapper: Neither @ContextConfiguration nor @ContextHierarchy found for test class [ru.netology.quantummoney.QuantumMoneyApplicationTests], using SpringBootContextLoader
+2022-08-18 19:30:27,730 INFO [Test worker] org.springframework.test.context.support.AbstractContextLoader: Could not detect default resource locations for test class [ru.netology.quantummoney.QuantumMoneyApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2022-08-18 19:30:27,730 INFO [Test worker] org.springframework.test.context.support.AnnotationConfigContextLoaderUtils: Could not detect default configuration classes for test class [ru.netology.quantummoney.QuantumMoneyApplicationTests]: QuantumMoneyApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2022-08-18 19:30:27,765 INFO [Test worker] org.springframework.boot.test.context.SpringBootTestContextBootstrapper: Found @SpringBootConfiguration ru.netology.quantummoney.QuantumMoneyApplication for test class ru.netology.quantummoney.QuantumMoneyApplicationTests
+2022-08-18 19:30:27,796 INFO [Test worker] org.springframework.test.context.support.AbstractTestContextBootstrapper: Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2022-08-18 19:30:27,803 INFO [Test worker] org.springframework.test.context.support.AbstractTestContextBootstrapper: Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@2f4854d6, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@61d9efe0, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@7e70bd39, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@e6516e, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@6de54b40, org.springframework.test.context.support.DirtiesContextTestExecutionListener@43ed0ff3, org.springframework.test.context.event.EventPublishingTestExecutionListener@388ffbc2, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@a50b09c, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@4da855dd, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@6691490c, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@2187fff7, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@2e5c7f0b, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@21d5c1a0]
+2022-08-18 19:30:27,929 INFO [Test worker] org.springframework.boot.StartupInfoLogger: Starting QuantumMoneyApplicationTests using Java 17 on AvasMacBook with PID 6037 (started by avas in /Users/avas/IdeaProjects/QuantumMoney)
+2022-08-18 19:30:27,930 DEBUG [Test worker] org.springframework.boot.StartupInfoLogger: Running with Spring Boot v2.7.2, Spring v5.3.22
+2022-08-18 19:30:27,930 INFO [Test worker] org.springframework.boot.SpringApplication: No active profile set, falling back to 1 default profile: "default"
+2022-08-18 19:30:27,934 INFO [background-preinit] org.hibernate.validator.internal.util.Version: HV000001: Hibernate Validator 6.2.3.Final
+2022-08-18 19:30:28,627 INFO [Test worker] org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver: Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-08-18 19:30:28,645 INFO [Test worker] org.springframework.boot.StartupInfoLogger: Started QuantumMoneyApplicationTests in 0.828 seconds (JVM running for 1.28)
+2022-08-18 19:42:18,519 INFO [background-preinit] org.hibernate.validator.internal.util.Version: HV000001: Hibernate Validator 6.2.3.Final
+2022-08-18 19:42:18,520 INFO [main] org.springframework.boot.StartupInfoLogger: Starting QuantumMoneyApplication using Java 11.0.14.1 on AvasMacBook with PID 6755 (/Users/avas/IdeaProjects/QuantumMoney/build/classes/java/main started by avas in /Users/avas/IdeaProjects/QuantumMoney)
+2022-08-18 19:42:18,527 DEBUG [main] org.springframework.boot.StartupInfoLogger: Running with Spring Boot v2.7.2, Spring v5.3.22
+2022-08-18 19:42:18,528 INFO [main] org.springframework.boot.SpringApplication: No active profile set, falling back to 1 default profile: "default"
+2022-08-18 19:42:20,081 INFO [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer: Tomcat initialized with port(s): 5500 (http)
+2022-08-18 19:42:20,090 INFO [main] org.apache.juli.logging.DirectJDKLog: Initializing ProtocolHandler ["http-nio-5500"]
+2022-08-18 19:42:20,091 INFO [main] org.apache.juli.logging.DirectJDKLog: Starting service [Tomcat]
+2022-08-18 19:42:20,091 INFO [main] org.apache.juli.logging.DirectJDKLog: Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-08-18 19:42:20,177 INFO [main] org.apache.juli.logging.DirectJDKLog: Initializing Spring embedded WebApplicationContext
+2022-08-18 19:42:20,190 INFO [main] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext: Root WebApplicationContext: initialization completed in 1579 ms
+2022-08-18 19:42:20,733 INFO [main] org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver: Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-08-18 19:42:20,769 INFO [main] org.apache.juli.logging.DirectJDKLog: Starting ProtocolHandler ["http-nio-5500"]
+2022-08-18 19:42:20,782 INFO [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer: Tomcat started on port(s): 5500 (http) with context path ''
+2022-08-18 19:42:20,811 INFO [main] org.springframework.boot.StartupInfoLogger: Started QuantumMoneyApplication in 2.869 seconds (JVM running for 4.218)
+2022-08-18 19:42:21,222 INFO [RMI TCP Connection(3)-192.168.1.77] org.apache.juli.logging.DirectJDKLog: Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-08-18 19:42:21,223 INFO [RMI TCP Connection(3)-192.168.1.77] org.springframework.web.servlet.FrameworkServlet: Initializing Servlet 'dispatcherServlet'
+2022-08-18 19:42:21,224 INFO [RMI TCP Connection(3)-192.168.1.77] org.springframework.web.servlet.FrameworkServlet: Completed initialization in 1 ms
+2022-08-18 19:42:48,926 INFO [http-nio-5500-exec-2] ru.netology.quantummoney.controller.MoneyTransferController: Creating new money transfer MoneyTransfer{id=0, cardFromNumber='1115666600101892', cardFromValidTill='05/23', cardFromCVV='530', cardToNumber='5555636200001111', amount=Amount{value=67899, currency='RUB'}, confirmOperation=null}
+2022-08-18 19:42:48,952 INFO [http-nio-5500-exec-2] ru.netology.quantummoney.service.MoneyTransferService: The input data Money Transfer is correct!
+2022-08-18 19:42:48,953 INFO [http-nio-5500-exec-2] ru.netology.quantummoney.repository.MoneyTransferRepository: Money Transfer added to Map<Long, MoneyTransfer> operationId = 1
+2022-08-18 19:44:38,547 INFO [http-nio-5500-exec-4] ru.netology.quantummoney.controller.MoneyTransferController: Confirming operation money transfer ConfirmOperation{operationId='1', code='2304', transferFee=0.0}
+2022-08-18 19:44:38,561 INFO [http-nio-5500-exec-4] ru.netology.quantummoney.repository.MoneyTransferRepository: Money Transfer confirmed MoneyTransfer{id=1, cardFromNumber='1115666600101892', cardFromValidTill='05/23', cardFromCVV='530', cardToNumber='5555636200001111', amount=Amount{value=67899, currency='RUB'}, confirmOperation=ConfirmOperation{operationId='1', code='2304', transferFee=678.99}}
+2022-08-18 19:54:32,666 INFO [Test worker] org.springframework.test.context.support.AbstractTestContextBootstrapper: Neither @ContextConfiguration nor @ContextHierarchy found for test class [ru.netology.quantummoney.QuantumMoneyApplicationTests], using SpringBootContextLoader
+2022-08-18 19:54:32,669 INFO [Test worker] org.springframework.test.context.support.AbstractContextLoader: Could not detect default resource locations for test class [ru.netology.quantummoney.QuantumMoneyApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2022-08-18 19:54:32,669 INFO [Test worker] org.springframework.test.context.support.AnnotationConfigContextLoaderUtils: Could not detect default configuration classes for test class [ru.netology.quantummoney.QuantumMoneyApplicationTests]: QuantumMoneyApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2022-08-18 19:54:32,703 INFO [Test worker] org.springframework.boot.test.context.SpringBootTestContextBootstrapper: Found @SpringBootConfiguration ru.netology.quantummoney.QuantumMoneyApplication for test class ru.netology.quantummoney.QuantumMoneyApplicationTests
+2022-08-18 19:54:32,738 INFO [Test worker] org.springframework.test.context.support.AbstractTestContextBootstrapper: Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2022-08-18 19:54:32,743 INFO [Test worker] org.springframework.test.context.support.AbstractTestContextBootstrapper: Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@2f4854d6, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@61d9efe0, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@7e70bd39, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@e6516e, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@6de54b40, org.springframework.test.context.support.DirtiesContextTestExecutionListener@43ed0ff3, org.springframework.test.context.event.EventPublishingTestExecutionListener@388ffbc2, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@a50b09c, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@4da855dd, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@6691490c, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@2187fff7, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@2e5c7f0b, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@21d5c1a0]
+2022-08-18 19:54:32,883 INFO [Test worker] org.springframework.boot.StartupInfoLogger: Starting QuantumMoneyApplicationTests using Java 17 on AvasMacBook with PID 7571 (started by avas in /Users/avas/IdeaProjects/QuantumMoney)
+2022-08-18 19:54:32,883 DEBUG [Test worker] org.springframework.boot.StartupInfoLogger: Running with Spring Boot v2.7.2, Spring v5.3.22
+2022-08-18 19:54:32,884 INFO [Test worker] org.springframework.boot.SpringApplication: No active profile set, falling back to 1 default profile: "default"
+2022-08-18 19:54:32,894 INFO [background-preinit] org.hibernate.validator.internal.util.Version: HV000001: Hibernate Validator 6.2.3.Final
+2022-08-18 19:54:33,576 INFO [Test worker] org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver: Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-08-18 19:54:33,595 INFO [Test worker] org.springframework.boot.StartupInfoLogger: Started QuantumMoneyApplicationTests in 0.835 seconds (JVM running for 1.311)
+2022-08-18 21:08:55,576 INFO [background-preinit] org.hibernate.validator.internal.util.Version: HV000001: Hibernate Validator 6.2.3.Final
+2022-08-18 21:08:55,576 INFO [main] org.springframework.boot.StartupInfoLogger: Starting QuantumMoneyApplication using Java 11.0.14.1 on AvasMacBook with PID 12009 (/Users/avas/IdeaProjects/QuantumMoney/build/classes/java/main started by avas in /Users/avas/IdeaProjects/QuantumMoney)
+2022-08-18 21:08:55,586 DEBUG [main] org.springframework.boot.StartupInfoLogger: Running with Spring Boot v2.7.2, Spring v5.3.22
+2022-08-18 21:08:55,589 INFO [main] org.springframework.boot.SpringApplication: No active profile set, falling back to 1 default profile: "default"
+2022-08-18 21:08:57,193 INFO [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer: Tomcat initialized with port(s): 5500 (http)
+2022-08-18 21:08:57,238 INFO [main] org.apache.juli.logging.DirectJDKLog: Initializing ProtocolHandler ["http-nio-5500"]
+2022-08-18 21:08:57,278 INFO [main] org.apache.juli.logging.DirectJDKLog: Starting service [Tomcat]
+2022-08-18 21:08:57,278 INFO [main] org.apache.juli.logging.DirectJDKLog: Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-08-18 21:08:57,426 INFO [main] org.apache.juli.logging.DirectJDKLog: Initializing Spring embedded WebApplicationContext
+2022-08-18 21:08:57,427 INFO [main] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext: Root WebApplicationContext: initialization completed in 1753 ms
+2022-08-18 21:08:58,169 INFO [main] org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver: Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-08-18 21:08:58,228 INFO [main] org.apache.juli.logging.DirectJDKLog: Starting ProtocolHandler ["http-nio-5500"]
+2022-08-18 21:08:58,250 INFO [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer: Tomcat started on port(s): 5500 (http) with context path ''
+2022-08-18 21:08:58,281 INFO [main] org.springframework.boot.StartupInfoLogger: Started QuantumMoneyApplication in 3.599 seconds (JVM running for 4.942)
+2022-08-18 21:08:58,571 INFO [RMI TCP Connection(2)-192.168.1.77] org.apache.juli.logging.DirectJDKLog: Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-08-18 21:08:58,571 INFO [RMI TCP Connection(2)-192.168.1.77] org.springframework.web.servlet.FrameworkServlet: Initializing Servlet 'dispatcherServlet'
+2022-08-18 21:08:58,572 INFO [RMI TCP Connection(2)-192.168.1.77] org.springframework.web.servlet.FrameworkServlet: Completed initialization in 0 ms
+2022-08-18 21:09:21,606 INFO [Test worker] org.testcontainers.utility.ImageNameSubstitutor: Image name substitution will be performed by: DefaultImageNameSubstitutor (composite of 'ConfigurationFileImageNameSubstitutor' and 'PrefixingImageNameSubstitutor')
+2022-08-18 21:09:21,698 INFO [Test worker] org.testcontainers.dockerclient.DockerClientProviderStrategy: Loaded org.testcontainers.dockerclient.UnixSocketClientProviderStrategy from ~/.testcontainers.properties, will try it first
+2022-08-18 21:09:23,159 INFO [Test worker] org.testcontainers.dockerclient.DockerClientProviderStrategy: Found Docker environment with local Unix socket (unix:///var/run/docker.sock)
+2022-08-18 21:09:23,163 INFO [Test worker] org.testcontainers.DockerClientFactory: Docker host IP address is localhost
+2022-08-18 21:09:23,225 INFO [Test worker] org.testcontainers.DockerClientFactory: Connected to docker: 
+  Server Version: 20.10.17
+  API Version: 1.41
+  Operating System: Docker Desktop
+  Total Memory: 3933 MB
+2022-08-18 21:09:23,344 INFO [Test worker] org.testcontainers.images.RemoteDockerImage: Pulling docker image: testcontainers/ryuk:0.3.3. Please be patient; this may take some time but only needs to be done once.
+2022-08-18 21:09:23,507 INFO [Test worker] org.testcontainers.utility.RegistryAuthLocator: Credential helper/store (docker-credential-desktop) does not have credentials for https://index.docker.io/v1/
+2022-08-18 21:09:27,342 INFO [docker-java-stream--2108438221] org.testcontainers.images.LoggedPullImageResultCallback: Starting to pull image
+2022-08-18 21:09:27,633 INFO [docker-java-stream--2108438221] org.testcontainers.images.LoggedPullImageResultCallback: Pulling image layers:  0 pending,  0 downloaded,  0 extracted, (0 bytes/0 bytes)
+2022-08-18 21:09:29,375 INFO [docker-java-stream--2108438221] org.testcontainers.images.LoggedPullImageResultCallback: Pulling image layers:  2 pending,  1 downloaded,  0 extracted, (1 MB/? MB)
+2022-08-18 21:09:29,765 INFO [docker-java-stream--2108438221] org.testcontainers.images.LoggedPullImageResultCallback: Pulling image layers:  1 pending,  2 downloaded,  0 extracted, (2 MB/? MB)
+2022-08-18 21:09:32,287 INFO [docker-java-stream--2108438221] org.testcontainers.images.LoggedPullImageResultCallback: Pulling image layers:  0 pending,  3 downloaded,  0 extracted, (4 MB/4 MB)
+2022-08-18 21:09:32,653 INFO [docker-java-stream--2108438221] org.testcontainers.images.LoggedPullImageResultCallback: Pulling image layers:  0 pending,  3 downloaded,  1 extracted, (4 MB/4 MB)
+2022-08-18 21:09:32,789 INFO [docker-java-stream--2108438221] org.testcontainers.images.LoggedPullImageResultCallback: Pulling image layers:  0 pending,  3 downloaded,  2 extracted, (4 MB/4 MB)
+2022-08-18 21:09:32,968 INFO [docker-java-stream--2108438221] org.testcontainers.images.LoggedPullImageResultCallback: Pulling image layers:  0 pending,  3 downloaded,  3 extracted, (4 MB/4 MB)
+2022-08-18 21:09:33,007 INFO [docker-java-stream--2108438221] org.testcontainers.images.LoggedPullImageResultCallback: Pull complete. 3 layers, pulled in 5s (downloaded 4 MB at 1016 KB/s)
+2022-08-18 21:09:33,195 INFO [Test worker] org.testcontainers.containers.GenericContainer: Creating container for image: testcontainers/ryuk:0.3.3
+2022-08-18 21:09:33,486 INFO [Test worker] org.testcontainers.containers.GenericContainer: Container testcontainers/ryuk:0.3.3 is starting: 5556a14aa602c1d8db65a7a0615c0f0cf8baf9af0cc40d17df2edc869b5ad643
+2022-08-18 21:09:34,110 INFO [Test worker] org.testcontainers.containers.GenericContainer: Container testcontainers/ryuk:0.3.3 started in PT10.873496S
+2022-08-18 21:09:34,137 INFO [Test worker] org.testcontainers.utility.RyukResourceReaper: Ryuk started - will monitor and terminate Testcontainers containers on JVM exit
+2022-08-18 21:09:34,138 INFO [Test worker] org.testcontainers.DockerClientFactory: Checking the system...
+2022-08-18 21:09:34,139 INFO [Test worker] org.testcontainers.DockerClientFactory: ✔︎ Docker server version should be at least 1.6.0
+2022-08-18 21:09:34,144 INFO [Test worker] org.testcontainers.containers.GenericContainer: Creating container for image: myapp:latest
+2022-08-18 21:09:34,183 INFO [Test worker] org.testcontainers.containers.GenericContainer: Container myapp:latest is starting: f615790e58231c12f08f99fbb15408a25d419e6b4da1fe25187bb245388f7e51
+2022-08-18 21:09:36,842 INFO [Test worker] org.testcontainers.containers.GenericContainer: Container myapp:latest started in PT2.699829S
+2022-08-18 21:09:36,963 INFO [Test worker] org.springframework.test.context.support.AbstractTestContextBootstrapper: Neither @ContextConfiguration nor @ContextHierarchy found for test class [ru.netology.quantummoney.QuantumMoneyApplicationTestsContainers], using SpringBootContextLoader
+2022-08-18 21:09:36,971 INFO [Test worker] org.springframework.test.context.support.AbstractContextLoader: Could not detect default resource locations for test class [ru.netology.quantummoney.QuantumMoneyApplicationTestsContainers]: no resource found for suffixes {-context.xml, Context.groovy}.
+2022-08-18 21:09:36,972 INFO [Test worker] org.springframework.test.context.support.AnnotationConfigContextLoaderUtils: Could not detect default configuration classes for test class [ru.netology.quantummoney.QuantumMoneyApplicationTestsContainers]: QuantumMoneyApplicationTestsContainers does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2022-08-18 21:09:37,128 INFO [Test worker] org.springframework.boot.test.context.SpringBootTestContextBootstrapper: Found @SpringBootConfiguration ru.netology.quantummoney.QuantumMoneyApplication for test class ru.netology.quantummoney.QuantumMoneyApplicationTestsContainers
+2022-08-18 21:09:37,211 INFO [Test worker] org.springframework.test.context.support.AbstractTestContextBootstrapper: Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2022-08-18 21:09:37,222 INFO [Test worker] org.springframework.test.context.support.AbstractTestContextBootstrapper: Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@7beae796, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@6749fe50, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@52bf7bf6, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@261db982, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@ae73c80, org.springframework.test.context.support.DirtiesContextTestExecutionListener@22f4f8f2, org.springframework.test.context.event.EventPublishingTestExecutionListener@bbd4791, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@40a72ecd, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@73971965, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@76a14c8d, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@17410c07, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@6ee99964, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@257ef9ed]
+2022-08-18 21:09:37,791 INFO [Test worker] org.springframework.boot.StartupInfoLogger: Starting QuantumMoneyApplicationTestsContainers using Java 11.0.14.1 on AvasMacBook with PID 12034 (started by avas in /Users/avas/IdeaProjects/QuantumMoney)
+2022-08-18 21:09:37,793 DEBUG [Test worker] org.springframework.boot.StartupInfoLogger: Running with Spring Boot v2.7.2, Spring v5.3.22
+2022-08-18 21:09:37,794 INFO [Test worker] org.springframework.boot.SpringApplication: No active profile set, falling back to 1 default profile: "default"
+2022-08-18 21:09:37,812 INFO [background-preinit] org.hibernate.validator.internal.util.Version: HV000001: Hibernate Validator 6.2.3.Final
+2022-08-18 21:09:40,995 INFO [Test worker] org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver: Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-08-18 21:09:41,056 INFO [Test worker] org.springframework.boot.StartupInfoLogger: Started QuantumMoneyApplicationTestsContainers in 3.78 seconds (JVM running for 21.271)
+2022-08-18 21:09:41,308 ERROR [Test worker] org.springframework.test.context.TestContextManager: Caught exception while allowing TestExecutionListener [org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@ae73c80] to prepare test instance [ru.netology.quantummoney.QuantumMoneyApplicationTestsContainers@7ccf6114]
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'ru.netology.quantummoney.QuantumMoneyApplicationTestsContainers': Unsatisfied dependency expressed through field 'restTemplate'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.boot.test.web.client.TestRestTemplate' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:659)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:639)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireBeanProperties(AbstractAutowireCapableBeanFactory.java:417)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:119)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:83)
+	at org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener.prepareTestInstance(SpringBootDependencyInjectionTestExecutionListener.java:43)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:248)
+	at org.springframework.test.context.junit.jupiter.SpringExtension.postProcessTestInstance(SpringExtension.java:138)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$8(ClassBasedTestDescriptor.java:363)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.executeAndMaskThrowable(ClassBasedTestDescriptor.java:368)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$9(ClassBasedTestDescriptor.java:363)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:177)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1655)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.StreamSpliterators$WrappingSpliterator.forEachRemaining(StreamSpliterators.java:312)
+	at java.base/java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:735)
+	at java.base/java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:734)
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:658)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.invokeTestInstancePostProcessors(ClassBasedTestDescriptor.java:362)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$instantiateAndPostProcessTestInstance$6(ClassBasedTestDescriptor.java:283)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.instantiateAndPostProcessTestInstance(ClassBasedTestDescriptor.java:282)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$4(ClassBasedTestDescriptor.java:272)
+	at java.base/java.util.Optional.orElseGet(Optional.java:369)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$5(ClassBasedTestDescriptor.java:271)
+	at org.junit.jupiter.engine.execution.TestInstancesProvider.getTestInstances(TestInstancesProvider.java:31)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$prepare$0(TestMethodTestDescriptor.java:102)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:101)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:66)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$prepare$2(NodeTestTask.java:123)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.prepare(NodeTestTask.java:123)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:90)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:107)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:88)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:67)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:52)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:114)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:86)
+	at org.junit.platform.launcher.core.DefaultLauncherSession$DelegatingLauncher.execute(DefaultLauncherSession.java:86)
+	at org.junit.platform.launcher.core.SessionPerRequestLauncher.execute(SessionPerRequestLauncher.java:53)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.processAllTestClasses(JUnitPlatformTestClassProcessor.java:99)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.access$000(JUnitPlatformTestClassProcessor.java:79)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor.stop(JUnitPlatformTestClassProcessor.java:75)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:61)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)
+	at com.sun.proxy.$Proxy2.stop(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker$3.run(TestWorker.java:193)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.executeAndMaintainThreadName(TestWorker.java:129)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:100)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:60)
+	at org.gradle.process.internal.worker.child.ActionExecutionWorker.execute(ActionExecutionWorker.java:56)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:133)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:71)
+	at worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
+	at worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.boot.test.web.client.TestRestTemplate' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoMatchingBeanFound(DefaultListableBeanFactory.java:1801)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1357)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1311)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:656)
+	... 92 common frames omitted
+2022-08-18 21:11:50,469 INFO [Test worker] org.testcontainers.utility.ImageNameSubstitutor: Image name substitution will be performed by: DefaultImageNameSubstitutor (composite of 'ConfigurationFileImageNameSubstitutor' and 'PrefixingImageNameSubstitutor')
+2022-08-18 21:11:50,518 INFO [Test worker] org.testcontainers.dockerclient.DockerClientProviderStrategy: Loaded org.testcontainers.dockerclient.UnixSocketClientProviderStrategy from ~/.testcontainers.properties, will try it first
+2022-08-18 21:11:51,641 INFO [Test worker] org.testcontainers.dockerclient.DockerClientProviderStrategy: Found Docker environment with local Unix socket (unix:///var/run/docker.sock)
+2022-08-18 21:11:51,644 INFO [Test worker] org.testcontainers.DockerClientFactory: Docker host IP address is localhost
+2022-08-18 21:11:51,686 INFO [Test worker] org.testcontainers.DockerClientFactory: Connected to docker: 
+  Server Version: 20.10.17
+  API Version: 1.41
+  Operating System: Docker Desktop
+  Total Memory: 3933 MB
+2022-08-18 21:11:51,742 INFO [Test worker] org.testcontainers.containers.GenericContainer: Creating container for image: testcontainers/ryuk:0.3.3
+2022-08-18 21:11:51,891 INFO [Test worker] org.testcontainers.utility.RegistryAuthLocator: Credential helper/store (docker-credential-desktop) does not have credentials for https://index.docker.io/v1/
+2022-08-18 21:11:52,127 INFO [Test worker] org.testcontainers.containers.GenericContainer: Container testcontainers/ryuk:0.3.3 is starting: 6d640b9ec4a84d1f6db6247bdb17387813eba3ffb41b8a4816861fd567ffb233
+2022-08-18 21:11:52,794 INFO [Test worker] org.testcontainers.containers.GenericContainer: Container testcontainers/ryuk:0.3.3 started in PT1.099065S
+2022-08-18 21:11:52,815 INFO [Test worker] org.testcontainers.utility.RyukResourceReaper: Ryuk started - will monitor and terminate Testcontainers containers on JVM exit
+2022-08-18 21:11:52,816 INFO [Test worker] org.testcontainers.DockerClientFactory: Checking the system...
+2022-08-18 21:11:52,818 INFO [Test worker] org.testcontainers.DockerClientFactory: ✔︎ Docker server version should be at least 1.6.0
+2022-08-18 21:11:52,820 INFO [Test worker] org.testcontainers.containers.GenericContainer: Creating container for image: myapp:latest
+2022-08-18 21:11:52,888 INFO [Test worker] org.testcontainers.containers.GenericContainer: Container myapp:latest is starting: f59dcf4706c4fe4c7f366f36f099888e6438392ef251e90ea15be7cd35c92aa0
+2022-08-18 21:11:55,224 INFO [Test worker] org.testcontainers.containers.GenericContainer: Container myapp:latest started in PT2.404728S
+2022-08-18 21:11:55,322 INFO [Test worker] org.springframework.test.context.support.AbstractTestContextBootstrapper: Neither @ContextConfiguration nor @ContextHierarchy found for test class [ru.netology.quantummoney.QuantumMoneyApplicationTestsContainers], using SpringBootContextLoader
+2022-08-18 21:11:55,328 INFO [Test worker] org.springframework.test.context.support.AbstractContextLoader: Could not detect default resource locations for test class [ru.netology.quantummoney.QuantumMoneyApplicationTestsContainers]: no resource found for suffixes {-context.xml, Context.groovy}.
+2022-08-18 21:11:55,331 INFO [Test worker] org.springframework.test.context.support.AnnotationConfigContextLoaderUtils: Could not detect default configuration classes for test class [ru.netology.quantummoney.QuantumMoneyApplicationTestsContainers]: QuantumMoneyApplicationTestsContainers does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2022-08-18 21:11:55,468 INFO [Test worker] org.springframework.boot.test.context.SpringBootTestContextBootstrapper: Found @SpringBootConfiguration ru.netology.quantummoney.QuantumMoneyApplication for test class ru.netology.quantummoney.QuantumMoneyApplicationTestsContainers
+2022-08-18 21:11:55,553 INFO [Test worker] org.springframework.test.context.support.AbstractTestContextBootstrapper: Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2022-08-18 21:11:55,564 INFO [Test worker] org.springframework.test.context.support.AbstractTestContextBootstrapper: Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@692dba54, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@71f1cc02, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@5f14761c, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@33feb805, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@37854b34, org.springframework.test.context.support.DirtiesContextTestExecutionListener@48eb001a, org.springframework.test.context.event.EventPublishingTestExecutionListener@34332b8d, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@724b939e, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@6f8aba08, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@7ff19c33, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@52b3bf03, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@7cca01a8, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@462abec3]
+2022-08-18 21:11:56,177 INFO [background-preinit] org.hibernate.validator.internal.util.Version: HV000001: Hibernate Validator 6.2.3.Final
+2022-08-18 21:11:56,179 INFO [Test worker] org.springframework.boot.StartupInfoLogger: Starting QuantumMoneyApplicationTestsContainers using Java 11.0.14.1 on AvasMacBook with PID 12177 (started by avas in /Users/avas/IdeaProjects/QuantumMoney)
+2022-08-18 21:11:56,182 DEBUG [Test worker] org.springframework.boot.StartupInfoLogger: Running with Spring Boot v2.7.2, Spring v5.3.22
+2022-08-18 21:11:56,183 INFO [Test worker] org.springframework.boot.SpringApplication: No active profile set, falling back to 1 default profile: "default"
+2022-08-18 21:11:58,974 INFO [Test worker] org.springframework.boot.web.embedded.tomcat.TomcatWebServer: Tomcat initialized with port(s): 0 (http)
+2022-08-18 21:11:59,011 INFO [Test worker] org.apache.juli.logging.DirectJDKLog: Initializing ProtocolHandler ["http-nio-auto-1"]
+2022-08-18 21:11:59,015 INFO [Test worker] org.apache.juli.logging.DirectJDKLog: Starting service [Tomcat]
+2022-08-18 21:11:59,016 INFO [Test worker] org.apache.juli.logging.DirectJDKLog: Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-08-18 21:11:59,351 INFO [Test worker] org.apache.juli.logging.DirectJDKLog: Initializing Spring embedded WebApplicationContext
+2022-08-18 21:11:59,353 INFO [Test worker] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext: Root WebApplicationContext: initialization completed in 3143 ms
+2022-08-18 21:12:02,513 INFO [Test worker] org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver: Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-08-18 21:12:02,620 INFO [Test worker] org.apache.juli.logging.DirectJDKLog: Starting ProtocolHandler ["http-nio-auto-1"]
+2022-08-18 21:12:02,643 INFO [Test worker] org.springframework.boot.web.embedded.tomcat.TomcatWebServer: Tomcat started on port(s): 62643 (http) with context path ''
+2022-08-18 21:12:02,673 INFO [Test worker] org.springframework.boot.StartupInfoLogger: Started QuantumMoneyApplicationTestsContainers in 7.062 seconds (JVM running for 13.754)
+2022-08-18 21:13:43,120 INFO [Test worker] org.testcontainers.utility.ImageNameSubstitutor: Image name substitution will be performed by: DefaultImageNameSubstitutor (composite of 'ConfigurationFileImageNameSubstitutor' and 'PrefixingImageNameSubstitutor')
+2022-08-18 21:13:43,167 INFO [Test worker] org.testcontainers.dockerclient.DockerClientProviderStrategy: Loaded org.testcontainers.dockerclient.UnixSocketClientProviderStrategy from ~/.testcontainers.properties, will try it first
+2022-08-18 21:13:44,274 INFO [Test worker] org.testcontainers.dockerclient.DockerClientProviderStrategy: Found Docker environment with local Unix socket (unix:///var/run/docker.sock)
+2022-08-18 21:13:44,278 INFO [Test worker] org.testcontainers.DockerClientFactory: Docker host IP address is localhost
+2022-08-18 21:13:44,335 INFO [Test worker] org.testcontainers.DockerClientFactory: Connected to docker: 
+  Server Version: 20.10.17
+  API Version: 1.41
+  Operating System: Docker Desktop
+  Total Memory: 3933 MB
+2022-08-18 21:13:44,395 INFO [Test worker] org.testcontainers.containers.GenericContainer: Creating container for image: testcontainers/ryuk:0.3.3
+2022-08-18 21:13:44,553 INFO [Test worker] org.testcontainers.utility.RegistryAuthLocator: Credential helper/store (docker-credential-desktop) does not have credentials for https://index.docker.io/v1/
+2022-08-18 21:13:44,821 INFO [Test worker] org.testcontainers.containers.GenericContainer: Container testcontainers/ryuk:0.3.3 is starting: 50abfedbc4650a85911c738cae7f839d4ac94db1f32a9242ee67aa0b0637696e
+2022-08-18 21:13:45,465 INFO [Test worker] org.testcontainers.containers.GenericContainer: Container testcontainers/ryuk:0.3.3 started in PT1.1168S
+2022-08-18 21:13:45,484 INFO [Test worker] org.testcontainers.utility.RyukResourceReaper: Ryuk started - will monitor and terminate Testcontainers containers on JVM exit
+2022-08-18 21:13:45,485 INFO [Test worker] org.testcontainers.DockerClientFactory: Checking the system...
+2022-08-18 21:13:45,487 INFO [Test worker] org.testcontainers.DockerClientFactory: ✔︎ Docker server version should be at least 1.6.0
+2022-08-18 21:13:45,494 INFO [Test worker] org.testcontainers.containers.GenericContainer: Creating container for image: myapp:latest
+2022-08-18 21:13:45,556 INFO [Test worker] org.testcontainers.containers.GenericContainer: Container myapp:latest is starting: 636dfb49b83dbe488f2c479de4c676e8b3e3c8000258b5cd9a3c965887ee69c0
+2022-08-18 21:13:49,850 INFO [Test worker] org.testcontainers.containers.GenericContainer: Container myapp:latest started in PT4.356764S
+2022-08-18 21:13:49,991 INFO [Test worker] org.springframework.test.context.support.AbstractTestContextBootstrapper: Neither @ContextConfiguration nor @ContextHierarchy found for test class [ru.netology.quantummoney.QuantumMoneyApplicationTestsContainers], using SpringBootContextLoader
+2022-08-18 21:13:50,003 INFO [Test worker] org.springframework.test.context.support.AbstractContextLoader: Could not detect default resource locations for test class [ru.netology.quantummoney.QuantumMoneyApplicationTestsContainers]: no resource found for suffixes {-context.xml, Context.groovy}.
+2022-08-18 21:13:50,007 INFO [Test worker] org.springframework.test.context.support.AnnotationConfigContextLoaderUtils: Could not detect default configuration classes for test class [ru.netology.quantummoney.QuantumMoneyApplicationTestsContainers]: QuantumMoneyApplicationTestsContainers does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2022-08-18 21:13:50,179 INFO [Test worker] org.springframework.boot.test.context.SpringBootTestContextBootstrapper: Found @SpringBootConfiguration ru.netology.quantummoney.QuantumMoneyApplication for test class ru.netology.quantummoney.QuantumMoneyApplicationTestsContainers
+2022-08-18 21:13:50,276 INFO [Test worker] org.springframework.test.context.support.AbstractTestContextBootstrapper: Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2022-08-18 21:13:50,287 INFO [Test worker] org.springframework.test.context.support.AbstractTestContextBootstrapper: Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@692dba54, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@71f1cc02, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@5f14761c, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@33feb805, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@37854b34, org.springframework.test.context.support.DirtiesContextTestExecutionListener@48eb001a, org.springframework.test.context.event.EventPublishingTestExecutionListener@34332b8d, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@724b939e, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@6f8aba08, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@7ff19c33, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@52b3bf03, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@7cca01a8, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@462abec3]
+2022-08-18 21:13:50,858 INFO [Test worker] org.springframework.boot.StartupInfoLogger: Starting QuantumMoneyApplicationTestsContainers using Java 11.0.14.1 on AvasMacBook with PID 12317 (started by avas in /Users/avas/IdeaProjects/QuantumMoney)
+2022-08-18 21:13:50,860 INFO [background-preinit] org.hibernate.validator.internal.util.Version: HV000001: Hibernate Validator 6.2.3.Final
+2022-08-18 21:13:50,861 DEBUG [Test worker] org.springframework.boot.StartupInfoLogger: Running with Spring Boot v2.7.2, Spring v5.3.22
+2022-08-18 21:13:50,863 INFO [Test worker] org.springframework.boot.SpringApplication: No active profile set, falling back to 1 default profile: "default"
+2022-08-18 21:13:52,943 INFO [Test worker] org.springframework.boot.web.embedded.tomcat.TomcatWebServer: Tomcat initialized with port(s): 0 (http)
+2022-08-18 21:13:52,958 INFO [Test worker] org.apache.juli.logging.DirectJDKLog: Initializing ProtocolHandler ["http-nio-auto-1"]
+2022-08-18 21:13:52,959 INFO [Test worker] org.apache.juli.logging.DirectJDKLog: Starting service [Tomcat]
+2022-08-18 21:13:52,959 INFO [Test worker] org.apache.juli.logging.DirectJDKLog: Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-08-18 21:13:53,103 INFO [Test worker] org.apache.juli.logging.DirectJDKLog: Initializing Spring embedded WebApplicationContext
+2022-08-18 21:13:53,105 INFO [Test worker] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext: Root WebApplicationContext: initialization completed in 2218 ms
+2022-08-18 21:13:54,699 INFO [Test worker] org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver: Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-08-18 21:13:54,788 INFO [Test worker] org.apache.juli.logging.DirectJDKLog: Starting ProtocolHandler ["http-nio-auto-1"]
+2022-08-18 21:13:54,803 INFO [Test worker] org.springframework.boot.web.embedded.tomcat.TomcatWebServer: Tomcat started on port(s): 62802 (http) with context path ''
+2022-08-18 21:13:54,820 INFO [Test worker] org.springframework.boot.StartupInfoLogger: Started QuantumMoneyApplicationTestsContainers in 4.48 seconds (JVM running for 13.313)
+2022-08-18 22:09:51,899 INFO [Test worker] org.testcontainers.utility.ImageNameSubstitutor: Image name substitution will be performed by: DefaultImageNameSubstitutor (composite of 'ConfigurationFileImageNameSubstitutor' and 'PrefixingImageNameSubstitutor')
+2022-08-18 22:09:51,947 INFO [Test worker] org.testcontainers.dockerclient.DockerClientProviderStrategy: Loaded org.testcontainers.dockerclient.UnixSocketClientProviderStrategy from ~/.testcontainers.properties, will try it first
+2022-08-18 22:09:53,201 INFO [Test worker] org.testcontainers.dockerclient.DockerClientProviderStrategy: Found Docker environment with local Unix socket (unix:///var/run/docker.sock)
+2022-08-18 22:09:53,204 INFO [Test worker] org.testcontainers.DockerClientFactory: Docker host IP address is localhost
+2022-08-18 22:09:53,266 INFO [Test worker] org.testcontainers.DockerClientFactory: Connected to docker: 
+  Server Version: 20.10.17
+  API Version: 1.41
+  Operating System: Docker Desktop
+  Total Memory: 3933 MB
+2022-08-18 22:09:53,327 INFO [Test worker] org.testcontainers.containers.GenericContainer: Creating container for image: testcontainers/ryuk:0.3.3
+2022-08-18 22:09:53,461 INFO [Test worker] org.testcontainers.utility.RegistryAuthLocator: Credential helper/store (docker-credential-desktop) does not have credentials for https://index.docker.io/v1/
+2022-08-18 22:09:53,704 INFO [Test worker] org.testcontainers.containers.GenericContainer: Container testcontainers/ryuk:0.3.3 is starting: 156d67931f05ecbf242f99f13ca346cc7a202678a61200c32afd42f8ba911cb2
+2022-08-18 22:09:54,492 INFO [Test worker] org.testcontainers.containers.GenericContainer: Container testcontainers/ryuk:0.3.3 started in PT1.215561S
+2022-08-18 22:09:54,515 INFO [Test worker] org.testcontainers.utility.RyukResourceReaper: Ryuk started - will monitor and terminate Testcontainers containers on JVM exit
+2022-08-18 22:09:54,517 INFO [Test worker] org.testcontainers.DockerClientFactory: Checking the system...
+2022-08-18 22:09:54,518 INFO [Test worker] org.testcontainers.DockerClientFactory: ✔︎ Docker server version should be at least 1.6.0
+2022-08-18 22:09:54,520 INFO [Test worker] org.testcontainers.containers.GenericContainer: Creating container for image: myapp:latest
+2022-08-18 22:09:54,565 INFO [Test worker] org.testcontainers.containers.GenericContainer: Container myapp:latest is starting: 06bfddc535eae198d2765bcfe17a7f92249cf3122f411f66b550f1dade643e65
+2022-08-18 22:09:56,763 INFO [Test worker] org.testcontainers.containers.GenericContainer: Container myapp:latest started in PT2.243456S
+2022-08-18 22:09:56,886 INFO [Test worker] org.springframework.test.context.support.AbstractTestContextBootstrapper: Neither @ContextConfiguration nor @ContextHierarchy found for test class [ru.netology.quantummoney.QuantumMoneyApplicationTestsContainers], using SpringBootContextLoader
+2022-08-18 22:09:56,893 INFO [Test worker] org.springframework.test.context.support.AbstractContextLoader: Could not detect default resource locations for test class [ru.netology.quantummoney.QuantumMoneyApplicationTestsContainers]: no resource found for suffixes {-context.xml, Context.groovy}.
+2022-08-18 22:09:56,897 INFO [Test worker] org.springframework.test.context.support.AnnotationConfigContextLoaderUtils: Could not detect default configuration classes for test class [ru.netology.quantummoney.QuantumMoneyApplicationTestsContainers]: QuantumMoneyApplicationTestsContainers does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2022-08-18 22:09:57,061 INFO [Test worker] org.springframework.boot.test.context.SpringBootTestContextBootstrapper: Found @SpringBootConfiguration ru.netology.quantummoney.QuantumMoneyApplication for test class ru.netology.quantummoney.QuantumMoneyApplicationTestsContainers
+2022-08-18 22:09:57,152 INFO [Test worker] org.springframework.test.context.support.AbstractTestContextBootstrapper: Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2022-08-18 22:09:57,165 INFO [Test worker] org.springframework.test.context.support.AbstractTestContextBootstrapper: Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@37854b34, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@48eb001a, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@34332b8d, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@724b939e, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@6f8aba08, org.springframework.test.context.support.DirtiesContextTestExecutionListener@7ff19c33, org.springframework.test.context.event.EventPublishingTestExecutionListener@52b3bf03, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@7cca01a8, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@462abec3, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@35c9a231, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@7a4d582c, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@5626d18c, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@45e9b12d]
+2022-08-18 22:09:57,729 INFO [Test worker] org.springframework.boot.StartupInfoLogger: Starting QuantumMoneyApplicationTestsContainers using Java 11.0.14.1 on AvasMacBook with PID 15402 (started by avas in /Users/avas/IdeaProjects/QuantumMoney)
+2022-08-18 22:09:57,732 DEBUG [Test worker] org.springframework.boot.StartupInfoLogger: Running with Spring Boot v2.7.2, Spring v5.3.22
+2022-08-18 22:09:57,735 INFO [Test worker] org.springframework.boot.SpringApplication: No active profile set, falling back to 1 default profile: "default"
+2022-08-18 22:09:57,742 INFO [background-preinit] org.hibernate.validator.internal.util.Version: HV000001: Hibernate Validator 6.2.3.Final
+2022-08-18 22:09:59,731 INFO [Test worker] org.springframework.boot.web.embedded.tomcat.TomcatWebServer: Tomcat initialized with port(s): 0 (http)
+2022-08-18 22:09:59,743 INFO [Test worker] org.apache.juli.logging.DirectJDKLog: Initializing ProtocolHandler ["http-nio-auto-1"]
+2022-08-18 22:09:59,745 INFO [Test worker] org.apache.juli.logging.DirectJDKLog: Starting service [Tomcat]
+2022-08-18 22:09:59,745 INFO [Test worker] org.apache.juli.logging.DirectJDKLog: Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-08-18 22:09:59,880 INFO [Test worker] org.apache.juli.logging.DirectJDKLog: Initializing Spring embedded WebApplicationContext
+2022-08-18 22:09:59,884 INFO [Test worker] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext: Root WebApplicationContext: initialization completed in 2098 ms
+2022-08-18 22:10:01,535 INFO [Test worker] org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver: Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-08-18 22:10:01,625 INFO [Test worker] org.apache.juli.logging.DirectJDKLog: Starting ProtocolHandler ["http-nio-auto-1"]
+2022-08-18 22:10:01,644 INFO [Test worker] org.springframework.boot.web.embedded.tomcat.TomcatWebServer: Tomcat started on port(s): 51343 (http) with context path ''
+2022-08-18 22:10:01,663 INFO [Test worker] org.springframework.boot.StartupInfoLogger: Started QuantumMoneyApplicationTestsContainers in 4.446 seconds (JVM running for 11.507)
