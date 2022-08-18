@@ -1,5 +1,6 @@
 package ru.netology.quantummoney.service;
 
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
 import ru.netology.quantummoney.exception.ErrorTransferOrConfirm;
 import ru.netology.quantummoney.exception.InvalidInputData;
@@ -11,6 +12,7 @@ import ru.netology.quantummoney.repository.MoneyTransferRepository;
 import java.time.LocalDate;
 import java.util.List;
 
+@Slf4j
 @Service
 public class MoneyTransferService {
     private final MoneyTransferRepository repository;
@@ -43,6 +45,7 @@ public class MoneyTransferService {
         if (cardFromValidTillYear <= currentYear && cardFromValidTillMonth < currentMonth) {
             throw new InvalidInputData("Invalid input data: card expired " + transfer.getCardFromValidTill(), 0);
         }
+        log.info("The input data Money Transfer is correct!");
 
         return repository.saveMoneyTransfer(transfer);
     }
@@ -53,7 +56,6 @@ public class MoneyTransferService {
             throw new ErrorTransferOrConfirm(
                     "Money transfer not confirmed /check verification code", 0);
         }
-
         return repository.saveConfirmOperation(confirmOperation);
     }
 

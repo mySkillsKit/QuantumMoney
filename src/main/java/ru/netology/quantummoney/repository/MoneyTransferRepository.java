@@ -1,5 +1,6 @@
 package ru.netology.quantummoney.repository;
 
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Repository;
 import ru.netology.quantummoney.exception.InvalidInputData;
 import ru.netology.quantummoney.model.ConfirmOperation;
@@ -13,6 +14,7 @@ import java.util.Optional;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.atomic.AtomicLong;
 
+@Slf4j
 @Repository
 public class MoneyTransferRepository {
     private final Map<Long, MoneyTransfer> moneyTransferMap = new ConcurrentHashMap<>();
@@ -37,7 +39,7 @@ public class MoneyTransferRepository {
         moneyTransfer.setId(id);
         moneyTransferMap.put(id, moneyTransfer);
         String operationId = Long.toString(id);
-        System.out.println(moneyTransferMap);
+        log.info("Money Transfer added to Map<Long, MoneyTransfer> operationId = {}", operationId);
         return new SuccessResponse(operationId);
     }
 
@@ -53,7 +55,7 @@ public class MoneyTransferRepository {
                         confirmOperation.setTransferFee(transfer.getAmount().getValue() * 0.01);
                         transfer.setConfirmOperation(confirmOperation);
                         moneyTransferMap.put(id, transfer);
-                        System.out.println("Перевод подтвержден");
+                        log.info("Money Transfer confirmed {}", transfer);
                         break;
                     } else {
                         throw new InvalidInputData("The transfer has already been confirmed", id);
