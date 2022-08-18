@@ -1,0 +1,8 @@
+version: '3.8'
+services:
+  web:
+    container_name: myapp
+    build: ./
+    image: myapp:latest
+    ports:
+      - 5500:5500

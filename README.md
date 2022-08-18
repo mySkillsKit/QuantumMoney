@@ -43,3 +43,48 @@ FRONT доступен по адресу https://github.com/serp-ya/card-transfe
 > Весь api фронта был описан в соответствии yaml (https://github.com/netology-code/jd-homeworks/blob/master/diploma/MoneyTransferServiceSpecification.yaml)
 файла по спецификации openapi (подробнее тут https://swagger.io/specification/ и тут https://starkovden.github.io/introduction-openapi-and-swagger.html)
 
+*****************
+## Вариант 1 Dockerfile
+- Запускаем терминал и cобираем jar архив с нашим spring boot приложением: `./gradlew clean build`
+- Создаем образ из нашего Dockerfile, мы должны запустить: `docker build --tag=myapp:latest .`
+- Запускаем контейнер из нашего образа: `docker run --rm -p5500:5500 -it myapp`
+
+## Вариант 2 с помощью файла docker-compose.yml
+- Запускаем терминал и cобираем jar архив с нашим spring boot приложением: `./gradlew clean build`
+- в терминале и выполнить команду: `docker-compose up`
+
+## Проверка
+- Протестировать приложение в браузере: https://serp-ya.github.io/card-transfer/
+- Протестировать приложение с помощью curl/postman
+
+POST --> http://localhost:5500/transfer
+`{
+"cardFromNumber": "1115666600101892",
+"cardFromValidTill": "05/23",
+"cardFromCVV": "530",
+"cardToNumber": "5555636200001111",
+"amount": {
+"value": 67899,
+"currency": "RUB"
+}
+}`
+
+ --> 200 OK
+`{
+"operationId": "1"
+}`
+------------------------------------------------
+POST --> http://localhost:5500/confirmOperation
+
+`{
+"operationId":  "1",
+"code": "2304"
+}`
+
+--> 200 OK
+`{
+"operationId": "1"
+}`
+
+
+

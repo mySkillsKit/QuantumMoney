@@ -42,7 +42,7 @@ public class ConfirmOperation {
 
     @Override
     public String toString() {
-        return "ConfirmOperation{" +
+        return "{" +
                 "operationId='" + operationId + '\'' +
                 ", code='" + code + '\'' +
                 ", transferFee=" + transferFee +
