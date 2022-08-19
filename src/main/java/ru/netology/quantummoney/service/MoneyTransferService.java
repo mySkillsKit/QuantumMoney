@@ -45,7 +45,7 @@ public class MoneyTransferService {
     public SuccessResponse saveConfirmOperation(ConfirmOperation confirmOperation) {
         //Условная реализация по проверке кода подтверждения денежного перевода с БД
         if (false) {
-            throw new ErrorTransferOrConfirm(
+            throw new InvalidInputData(
                     "Money transfer not confirmed /check verification code", 0);
         }
         return repository.saveConfirmOperation(confirmOperation);

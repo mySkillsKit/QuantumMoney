@@ -57,8 +57,9 @@ FRONT доступен по адресу https://github.com/serp-ya/card-transfe
 - Протестировать приложение в браузере: https://serp-ya.github.io/card-transfer/
 - Протестировать приложение с помощью curl/postman
 
-POST --> http://localhost:5500/transfer
-`{
+POST request --> http://localhost:5500/transfer
+```
+{
 "cardFromNumber": "1115666600101892",
 "cardFromValidTill": "05/23",
 "cardFromCVV": "530",
@@ -67,24 +68,50 @@ POST --> http://localhost:5500/transfer
 "value": 67899,
 "currency": "RUB"
 }
-}`
+}
+```
 
- --> 200 OK
-`{
+ response --> 200 OK
+
+```
+{
 "operationId": "1"
-}`
-------------------------------------------------
-POST --> http://localhost:5500/confirmOperation
+}
+```
+response --> 400 and 500
 
-`{
+```
+{
+"message": "string",
+"id": 0
+}
+```
+------------------------------------------------
+POST request --> http://localhost:5500/confirmOperation
+
+```
+{
 "operationId":  "1",
 "code": "2304"
-}`
+}
+```
 
---> 200 OK
-`{
+response --> 200 OK
+```
+{
 "operationId": "1"
-}`
+}
+```
+response --> 400 and 500
+```
+{
+"message": "string",
+"id": 0
+}
+```
+
+Для логирования используется SLF4J (Simple Logging Facade for Java)
+Настройка через файл `/src/main/resources/logback.xml`
 
 
 

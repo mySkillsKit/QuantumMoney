@@ -5,6 +5,7 @@ import org.springframework.stereotype.Repository;
 import ru.netology.quantummoney.exception.InvalidInputData;
 import ru.netology.quantummoney.model.ConfirmOperation;
 import ru.netology.quantummoney.model.MoneyTransfer;
+import ru.netology.quantummoney.model.StatusMoneyTransfer;
 import ru.netology.quantummoney.model.SuccessResponse;
 
 import java.util.ArrayList;
@@ -34,12 +35,14 @@ public class MoneyTransferRepository {
         return Optional.empty();
     }
 
-    public SuccessResponse saveMoneyTransfer(MoneyTransfer moneyTransfer) {
+    public SuccessResponse saveMoneyTransfer(MoneyTransfer transfer) {
         long id = countMoneyTransfer.incrementAndGet();
-        moneyTransfer.setId(id);
-        moneyTransferMap.put(id, moneyTransfer);
+        transfer.setId(id);
+        transfer.setStatusMoneyTransfer(StatusMoneyTransfer.CREATED);
+        moneyTransferMap.put(id, transfer);
         String operationId = Long.toString(id);
-        log.info("Money Transfer added to Map<Long, MoneyTransfer> operationId = {}", operationId);
+        log.info("Money Transfer successful {} operationId = {}",
+                transfer.getStatusMoneyTransfer(), operationId);
         return new SuccessResponse(operationId);
     }
 
@@ -54,8 +57,11 @@ public class MoneyTransferRepository {
                     if (transfer.getConfirmOperation() == null) {
                         confirmOperation.setTransferFee(transfer.getAmount().getValue() * 0.01);
                         transfer.setConfirmOperation(confirmOperation);
+                        transfer.setStatusMoneyTransfer(StatusMoneyTransfer.CONFIRMED);
                         moneyTransferMap.put(id, transfer);
-                        log.info("Money Transfer confirmed {}", transfer);
+                        log.info("Money Transfer successful {}, Transfer:{} Commission:{}",
+                                transfer.getStatusMoneyTransfer(),
+                                transfer, transfer.getConfirmOperation().getTransferFee());
                         break;
                     } else {
                         throw new InvalidInputData("The transfer has already been confirmed", id);

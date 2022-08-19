@@ -1,7 +1,7 @@
 package ru.netology.quantummoney.exception;
 
 public class InvalidInputData extends RuntimeException {
-    private long id;
+    private final long id;
 
     public InvalidInputData(String msg, long id) {
         super(msg);

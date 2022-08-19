@@ -21,6 +21,7 @@ public class MoneyTransfer {
     private String cardToNumber;
     @Valid
     private Amount amount;
+    private StatusMoneyTransfer statusMoneyTransfer;
     private ConfirmOperation confirmOperation;
 
     public MoneyTransfer(String cardFromNumber, String cardFromValidTill,
@@ -34,14 +35,12 @@ public class MoneyTransfer {
 
     @Override
     public String toString() {
-        return "MoneyTransfer{" +
-                "id=" + id +
-                ", cardFromNumber='" + cardFromNumber + '\'' +
+        return "{" +
+                "cardFromNumber='" + cardFromNumber + '\'' +
                 ", cardFromValidTill='" + cardFromValidTill + '\'' +
                 ", cardFromCVV='" + cardFromCVV + '\'' +
                 ", cardToNumber='" + cardToNumber + '\'' +
-                ", amount=" + amount +
-                ", confirmOperation=" + confirmOperation +
+                ", " + amount +
                 '}';
     }
 }

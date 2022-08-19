@@ -5,6 +5,7 @@ import lombok.Data;
 import javax.validation.constraints.NotEmpty;
 import javax.validation.constraints.Positive;
 import javax.validation.constraints.Size;
+
 @Data
 public class Amount {
     @Positive(message = "Invalid value: Must be value > 0")
