@@ -1,6 +1,7 @@
 package ru.netology.quantummoney.service;
 
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import ru.netology.quantummoney.exception.ErrorTransferOrConfirm;
 import ru.netology.quantummoney.exception.InvalidInputData;
@@ -10,24 +11,15 @@ import ru.netology.quantummoney.model.SuccessResponse;
 import ru.netology.quantummoney.repository.MoneyTransferRepository;
 
 import java.time.LocalDate;
-import java.util.List;
 
 @Slf4j
 @Service
 public class MoneyTransferService {
     private final MoneyTransferRepository repository;
 
+    @Autowired
     public MoneyTransferService(MoneyTransferRepository repository) {
         this.repository = repository;
-    }
-
-    public List<MoneyTransfer> all() {
-        return repository.all();
-    }
-
-    public MoneyTransfer getById(long id) {
-        //todo
-        return repository.getById(id).orElse(null);
     }
 
     public SuccessResponse saveMoneyTransfer(MoneyTransfer transfer) {

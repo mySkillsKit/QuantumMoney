@@ -1,6 +1,7 @@
 package ru.netology.quantummoney.controller;
 
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 import ru.netology.quantummoney.model.ConfirmOperation;
 import ru.netology.quantummoney.model.MoneyTransfer;
@@ -16,6 +17,7 @@ import javax.validation.Valid;
 public class MoneyTransferController {
     private final MoneyTransferService service;
 
+    @Autowired
     public MoneyTransferController(MoneyTransferService service) {
         this.service = service;
     }
@@ -28,7 +30,7 @@ public class MoneyTransferController {
 
     @PostMapping("/confirmOperation")
     public SuccessResponse saveConfirmOperation(@Valid @RequestBody ConfirmOperation confirmOperation) {
-        log.info("Confirming operation money transfer {}",confirmOperation);
+        log.info("Confirming operation money transfer {}", confirmOperation);
         return service.saveConfirmOperation(confirmOperation);
     }
 
