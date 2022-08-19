@@ -1,7 +1,9 @@
 package ru.netology.quantummoney.model;
 
-import javax.validation.constraints.*;
+import lombok.Data;
 
+import javax.validation.constraints.*;
+@Data
 public class ConfirmOperation {
     @NotEmpty(message = "Invalid operationId: Empty operationId")
     @Positive(message = "Invalid operationId: Only operationId > 0")
@@ -10,42 +12,4 @@ public class ConfirmOperation {
     @NotBlank(message = "Invalid code: Empty code")
     private String code;
     private double transferFee;
-
-    public ConfirmOperation(String operationId, String code) {
-        this.operationId = operationId;
-        this.code = code;
-    }
-
-    public void setOperationId(String operationId) {
-        this.operationId = operationId;
-    }
-
-    public void setCode(String code) {
-        this.code = code;
-    }
-
-    public void setTransferFee(double transferFee) {
-        this.transferFee = transferFee;
-    }
-
-    public String getOperationId() {
-        return operationId;
-    }
-
-    public String getCode() {
-        return code;
-    }
-
-    public double getTransferFee() {
-        return transferFee;
-    }
-
-    @Override
-    public String toString() {
-        return "{" +
-                "operationId='" + operationId + '\'' +
-                ", code='" + code + '\'' +
-                ", transferFee=" + transferFee +
-                '}';
-    }
-}
+ }
