@@ -1,6 +1,7 @@
 package ru.netology.quantummoney;
 
 import org.junit.Assert;
+import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -40,7 +41,7 @@ public class QuantumMoneyApplicationTestsContainers {
         System.out.println(forEntity.getBody());
         String expected = "{\"operationId\":" + "\"1\"}";
         String actual = forEntity.getBody();
-        Assert.assertEquals(expected, actual);
+        Assertions.assertEquals(expected, actual);
     }
 
    @Test
@@ -52,7 +53,7 @@ public class QuantumMoneyApplicationTestsContainers {
        System.out.println(forEntity.getBody());
        String expected = "{\"operationId\":" + "\"1\"}";
        String actual = forEntity.getBody();
-       Assert.assertEquals(expected, actual);
+       Assertions.assertEquals(expected, actual);
     }
 
 }

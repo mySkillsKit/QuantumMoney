@@ -12,4 +12,10 @@ public class ConfirmOperation {
     @NotBlank(message = "Invalid code: Empty code")
     private String code;
     private double transferFee;
- }
+
+    public ConfirmOperation(String operationId, String code) {
+        this.operationId = operationId;
+        this.code = code;
+    }
+
+}
