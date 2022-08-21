@@ -13,7 +13,8 @@ import javax.validation.Valid;
 @Slf4j
 @RestController
 @RequestMapping("/")
-@CrossOrigin(origins = "https://serp-ya.github.io", methods = RequestMethod.POST)
+@CrossOrigin(origins = {"https://serp-ya.github.io", "http://localhost:3000"}, methods = RequestMethod.POST)
+
 public class MoneyTransferController {
     private final MoneyTransferService service;
 

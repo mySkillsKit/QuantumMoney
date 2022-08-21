@@ -1,0 +1,8 @@
+version: '3.8'
+services:
+    front:
+        container_name: cardtransfer
+        build: ./
+        image: cardtransfer:latets
+        ports:
+           - 3000:3000
