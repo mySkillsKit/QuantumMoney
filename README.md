@@ -113,5 +113,10 @@ response --> 400 and 500
 Для логирования используется SLF4J (Simple Logging Facade for Java)
 Настройка через файл `/src/main/resources/logback.xml`
 
+*****
+## Запуск приложения front на http://localhost:3000 с помощью docker
+* Вариант запуска с помощью файла docker-compose.yml
+- в терминале в папке /card-transfer-master и выполнить команду: `docker-compose up`
+
 
 

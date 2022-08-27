@@ -1,7 +1,6 @@
 package ru.netology.quantummoney.controller;
 
 import lombok.extern.slf4j.Slf4j;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 import ru.netology.quantummoney.model.ConfirmOperation;
 import ru.netology.quantummoney.model.MoneyTransfer;
@@ -13,11 +12,11 @@ import javax.validation.Valid;
 @Slf4j
 @RestController
 @RequestMapping("/")
-@CrossOrigin(origins = "https://serp-ya.github.io", methods = RequestMethod.POST)
+@CrossOrigin(origins = {"https://serp-ya.github.io", "http://localhost:3000"}, methods = RequestMethod.POST)
+
 public class MoneyTransferController {
     private final MoneyTransferService service;
 
-    @Autowired
     public MoneyTransferController(MoneyTransferService service) {
         this.service = service;
     }

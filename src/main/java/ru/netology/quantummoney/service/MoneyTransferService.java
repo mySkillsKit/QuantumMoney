@@ -1,9 +1,7 @@
 package ru.netology.quantummoney.service;
 
 import lombok.extern.slf4j.Slf4j;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import ru.netology.quantummoney.exception.ErrorTransferOrConfirm;
 import ru.netology.quantummoney.exception.InvalidInputData;
 import ru.netology.quantummoney.model.ConfirmOperation;
 import ru.netology.quantummoney.model.MoneyTransfer;
@@ -17,7 +15,6 @@ import java.time.LocalDate;
 public class MoneyTransferService {
     private final MoneyTransferRepository repository;
 
-    @Autowired
     public MoneyTransferService(MoneyTransferRepository repository) {
         this.repository = repository;
     }
